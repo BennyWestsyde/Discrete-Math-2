@@ -31,7 +31,7 @@ Sum of the first $k+1$ odd numbers $= k^2 + (2k + 1) = (k+1)^2$
 - Structural induction is different from mathematical induction.
 - Always make sure you have a valid basis step and an induction step.
 
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ***
 ## Relations
 ***
@@ -76,6 +76,8 @@ An equivalence relation is a relation that is reflexive, symmetric, and transiti
 - **Transitive**
 : For all x, y, and z, if (x, y) and (y, z) are in the relation, then (x, z) is in the relation.
 
+<br><br><br><br><br><br><br><br>
+
 #### Example:
 
 Let R be a relation on the set of integers where (a, b) ∈ R if a and b have the same remainder when divided by 3.
@@ -108,16 +110,20 @@ Consider the set of integers `Z` and the equivalence relation "having the same r
 - `[0]`: The set of integers that are divisible by 3.
 - `[1]`: The set of integers that leave a remainder of 1 when divided by 3.
 - `[2]`: The set of integers that leave a remainder of 2 when divided by 3.
-```asc
+
+```
   [0]: {..., -6, -3, 0, 3, 6, ...}
   [1]: {..., -5, -2, 1, 4, 7, ...}
   [2]: {..., -4, -1, 2, 5, 8, ...}
 ```
+
 In this example, the set of integers `Z` is partitioned into three subsets (the equivalence classes) based on their remainder when divided by 3.
 
 #### Tricky Things to Remember:
 - It's important to note that different equivalence relations can result in different partitionings of a set into equivalence classes.
 - Equivalence classes can be represented by any element in the class, but it's common to use the element that generates the class (i.e., the element that is used to define the equivalence relation).
+
+<br><br>
 
 ***
 ### Orders
@@ -162,11 +168,14 @@ This is a partial order. The Hasse diagram is:
 
 - A total order is a special case of a partial order.
 - Hasse diagrams do not have loops or arrows, and they eliminate transitive edges.
+
 ---
 #### Total Orders
 
 ##### Summary:
 A total order is a binary relation that is reflexive, antisymmetric, transitive, and total. In a totally ordered set, every pair of elements is comparable.
+
+<br>
 
 ##### Definitions:
 - **Binary relation**
@@ -204,6 +213,8 @@ Hasse diagrams are graphical representations of partially ordered sets. They pro
 : An element `b` in a poset is a lower bound of a subset `S` if `b` is less than or equal to every element in `S`.
 - **Hasse diagram**
 : A Hasse diagram is a graphical representation of a poset, where each element in the set is represented by a point or node, and the relationships between the elements are represented by lines or edges.
+
+<br><br><br>
 
 ##### Example:
 Consider the set of divisors of 12, partially ordered by the relation "divides." The Hasse diagram for this poset is:
@@ -299,7 +310,7 @@ In partially ordered sets, two elements are said to be "comparable" if one is le
 : Two elements `a` and `b` in a poset are incomparable if neither `a` is less than or equal to `b`, nor `b` is less than or equal to `a`.
 
 ##### Example:
-Consider the set of integers `Z` with the partial order relation "less than or equal to." In this poset, any two distinct elements are either comparable or incomparable. For example, `1` and `3` are incomparable because neither `1 ≤ 3` nor `3 ≤ 1` is true. On the other hand, `1` and `-1` are comparable because `1 ≤ -1` is false, but `-1 ≤ 1` is true.
+Consider the set of integers `Z` with the partial order relation "less than or equal to." In this poset, any two distinct elements are either comparable or incomparable. For example, `1` and `3` are incomparable because neither $1 <= 3$ nor $3 <= 1$ is true. On the other hand, `1` and `-1` are comparable because $1 <= -1$ is false, but $-1 <= 1$ is true.
 
 ##### Tricky Things to Remember:
 - Not all elements in a poset are comparable. Some pairs of elements may be incomparable.
@@ -378,7 +389,6 @@ A binary tree is a tree data structure where each node has at most two children,
 
 ASCII representation of a binary tree:
 
-(Ascii Art)
 ```
                 _______
                |       |
@@ -408,5 +418,5 @@ ASCII representation of a binary tree:
 
 - The maximum number of nodes in a binary tree of height h is 
 
-  $2^{h+1} - 1$.
+  2^h+1^ - 1.
 - In a complete binary tree, every level is completely filled except for possibly the last level.

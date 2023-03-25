@@ -3,8 +3,6 @@
 ## Binary Trees
 ***
 
-### Binary Trees
-
 #### Summary:
 
 A binary tree is a tree data structure where each node has at most two children, typically referred to as left and right.

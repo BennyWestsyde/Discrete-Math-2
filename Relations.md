@@ -2,8 +2,6 @@
 ## Relations
 ***
 
-### Relations
-
 #### Summary:
 
 Relations describe the connections between elements of sets. Equivalence relations and partial orders are two important types of relations.
@@ -84,6 +82,8 @@ In this example, the set of integers `Z` is partitioned into three subsets (the 
 #### Tricky Things to Remember:
 - It's important to note that different equivalence relations can result in different partitionings of a set into equivalence classes.
 - Equivalence classes can be represented by any element in the class, but it's common to use the element that generates the class (i.e., the element that is used to define the equivalence relation).
+
+<br><br><br><br>
 
 ***
 # Orders
@@ -174,6 +174,8 @@ Hasse diagrams are graphical representations of partially ordered sets. They pro
 #### Example:
 Consider the set of divisors of 12, partially ordered by the relation "divides." The Hasse diagram for this poset is:
 
+<br>
+
 ```
       12
     / | \
@@ -210,7 +212,7 @@ Topological sort is an algorithm used to put the elements of a partially ordered
 
 #### Example:
 Consider the directed acyclic graph shown below:
-
+<br><br><br><br>
 ```
      2    3
      |    |
