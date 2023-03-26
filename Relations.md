@@ -110,7 +110,7 @@ A partial order is a relation that is reflexive, antisymmetric, and transitive. 
 
 #### Example:
 
-Let R be a relation on the set {a, b, c, d} where (a, b) ∈ R, (a, c) ∈ R, (b, d) ∈ R, and (c, d) ∈ R.
+Let R be a relation on the set {a, b, c, d} where (a, b) ∈ R, (a, c) ∈ R, (b, d) ∈ R, and (a, d) ∈ R.
 
 This is a partial order. The Hasse diagram is:
 
