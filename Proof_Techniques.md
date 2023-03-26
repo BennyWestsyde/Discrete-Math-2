@@ -29,3 +29,4 @@ Sum of the first $k+1$ odd numbers $= k^2 + (2k + 1) = (k+1)^2$
 - Structural induction is different from mathematical induction.
 - Always make sure you have a valid basis step and an induction step.
 
+something new
