@@ -32,7 +32,6 @@ A binary tree is a tree data structure where each node has at most two children,
 
 ASCII representation of a binary tree:
 
-(Ascii Art)
 ```
                 _______
                |       |
