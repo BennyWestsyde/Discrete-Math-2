@@ -156,8 +156,8 @@ This is a partial order. The Hasse diagram is:
 
 ```
     d
-   /
-  /
+   /  \
+  /    \
   b     c
    \   /
     \ /
