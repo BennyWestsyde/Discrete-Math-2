@@ -177,13 +177,13 @@ Consider the set of divisors of 12, partially ordered by the relation "divides."
 <br>
 
 ```
-      12
-    / | \
-   6  4  3
-    \ | /
-      2
-      |
-      1
+         12
+      /     \
+     6       4
+   /   \    /
+  3      2
+   \   /
+     1
 
 ```
 
