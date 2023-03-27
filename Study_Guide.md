@@ -220,13 +220,13 @@ Hasse diagrams are graphical representations of partially ordered sets. They pro
 Consider the set of divisors of 12, partially ordered by the relation "divides." The Hasse diagram for this poset is:
 
 ```
-         12
-      /     \
-     6       4
-   /   \    /
-  3      2
-   \   /
-     1
+      12
+    / | \
+   6  4  3
+    \ | /
+      2
+      |
+      1
 
 ```
 
