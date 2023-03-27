@@ -177,14 +177,13 @@ Consider the set of divisors of 12, partially ordered by the relation "divides."
 <br>
 
 ```
-      12
-    / | \
-   6  4  3
-    \ | /
-      2
-      |
-      1
-
+         12
+      /     \
+     6       4
+   /   \    /
+  3      2
+   \   /
+     1
 ```
 
 In this diagram, each node represents an element in the poset, and the lines represent the partial order relation between the elements. For example, the node labeled "6" is connected by an upward line to the node labeled "12" because 6 divides 12. The diagram is drawn in such a way that every node is above all the nodes it is greater than, and every line is drawn upwards to show the partial order relationship.
