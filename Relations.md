@@ -267,8 +267,9 @@ In partially ordered sets, two elements are said to be "comparable" if one is le
 : Two elements `a` and `b` in a poset are incomparable if neither `a` is less than or equal to `b`, nor `b` is less than or equal to `a`.
 
 #### Example:
-Consider the set of integers `Z` with the partial order relation "less than or equal to." In this poset, any two distinct elements are either comparable or incomparable. For example, `1` and `3` are incomparable because neither `1 ≤ 3` nor `3 ≤ 1` is true. On the other hand, `1` and `-1` are comparable because `1 ≤ -1` is false, but `-1 ≤ 1` is true.
+Consider the set of integers `Z` with the partial order relation "less than or equal to." In this poset, any two distinct elements are either comparable or incomparable. For example, `1` and `3` are comparable because `3 ≤ 1` is false, but `1 ≤ 3` is true, and `1` and `-1` are comparable because `1 ≤ -1` is false, but `-1 ≤ 1` is true.
 
+On the other hand, consider the set of integers `Z` with the partial order relation "*a* divides *b*". That is to say, *a* relates to *b* iff `a|b` (a divides b). `2` and `4` are comparable because `4|2`*(meaning 2 divided by 4 has a remainder)* is false, but `2|4`*(meaning 4 divided by 2 has no remainder)* is true. However, `3` and `5` are incomparable because neither `3|5` nor `5|3` are true. *(5/3 and 3/5 both have remainders)*.
 #### Tricky Things to Remember:
 - Not all elements in a poset are comparable. Some pairs of elements may be incomparable.
 - The concept of comparability is important because it allows us to define minimum and maximum elements in a poset, and it is also used in algorithms such as topological sorting.
