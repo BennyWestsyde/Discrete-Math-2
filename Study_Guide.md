@@ -310,7 +310,7 @@ In partially ordered sets, two elements are said to be "comparable" if one is le
 : Two elements `a` and `b` in a poset are incomparable if neither `a` is less than or equal to `b`, nor `b` is less than or equal to `a`.
 
 ##### Example:
-Consider the set of integers `Z` with the partial order relation "less than or equal to." In this poset, any two distinct elements are either comparable or incomparable. For example, `1` and `3` are incomparable because neither $1 <= 3$ nor $3 <= 1$ is true. On the other hand, `1` and `-1` are comparable because $1 <= -1$ is false, but $-1 <= 1$ is true.
+Consider the set of integers `Z` with the partial order relation "less than or equal to." In this poset, any two distinct elements are either comparable or incomparable. For example, `1` and `3` are comparable because $1 <= 3$ is true, even though $3 <= 1$ is false. `1` and `-1` are comparable because $1 <= -1$ is false, but $-1 <= 1$ is true.
 
 ##### Tricky Things to Remember:
 - Not all elements in a poset are comparable. Some pairs of elements may be incomparable.
