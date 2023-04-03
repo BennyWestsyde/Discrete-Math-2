@@ -1,0 +1,9 @@
+Check the reflexive property
+Check the symmetric property
+The smallest one containes those relations, we do not need to check the transitive property
+
+Example:
+Find the smallest equivalence relation on the set {a, b, c, d, e} containing the relation {(a, b), (a, c), (d, e)}
+1. Reflexive: (a,a), (b,b), (c,c), (d,d), (e,e)
+2. Symmetric: (a,b), (b,a); (a,c), (c,a); (d,e), (e,d)
+So the smallest equivalence relation is {(a,a), (b,b), (c,c), (d,d), (e,e), (a,b), (b,a), (a,c), (c,a), (d,e), (e,d)}
