@@ -1,0 +1,16 @@
+Wednesday, 5/10 8PM, normal class room
+
+Problems:
+    Graph Topics
+        Graph Algorithms
+            Kruskal's Minimal Spanning Tree Algorithm
+            Depth First Search (Strongly Connected Components)
+            Dijkstra's Single Source Shortest Path Algorithm
+        Graph Isomorphism
+        Graph Connectivity
+            Strongly Connected Components
+            Edge/Vertex Connectivity
+        Bipartite Graphs
+    Solving Recurrences
+        Linear Homogeneous Recurrences
+        Master Theorem and Application to Divide and Conquer
